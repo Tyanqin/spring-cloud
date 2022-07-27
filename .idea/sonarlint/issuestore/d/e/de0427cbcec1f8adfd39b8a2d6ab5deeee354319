@@ -1,0 +1,12 @@
+
+S
+java:S1197@"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+4
+java:S21191"Save and re-use this "Random".(¡Å”¦
+z
+java:S1149)"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(åûÒ¸ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(–€Šüÿÿÿÿ
+œ
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡şÏÖøÿÿÿÿ
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(®ß£•

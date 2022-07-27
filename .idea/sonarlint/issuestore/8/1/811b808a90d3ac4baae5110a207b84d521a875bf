@@ -1,0 +1,21 @@
+
+4
+java:S21290"Remove this "Long" constructor(ªıé
+j
+java:S3252["OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(ÙèÈİüÿÿÿÿ
+t
+java:S2293V"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö„Â¾ÿÿÿÿÿ
+E
+java:S1481Z"*Remove this unused "clazz" local variable.(§Ó†¶úÿÿÿÿ
+`
+java:S1155N">Use isEmpty() to check whether the collection is empty or not.(‡ÉÓÁùÿÿÿÿ8’˜Ô¨¡0
+d
+java:S3252T"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(Œ÷æS
+E
+java:S3740]"/Provide the parametrized type for this generic.(ğçˆ¯
+o
+java:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ÜÔÆ
+T
+java:S1854Z"9Remove this useless assignment to local variable "clazz".(§Ó†¶úÿÿÿÿ
+E
+java:S3740]"/Provide the parametrized type for this generic.(ğçˆ¯

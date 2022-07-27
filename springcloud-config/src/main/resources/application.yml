@@ -1,0 +1,27 @@
+#server:
+#  port:  3344
+#spring:
+#  application:
+#    name:  springcloud-config
+#  cloud:
+#    config:
+#      server:
+#         git:
+#            uri: https://gitee.com/tyanqin/springcloud-config.git
+#            search-paths:
+#                - springcloud-config
+#            username: Tyanqin
+#            password: TYQsl1223
+#
+#      label:  master
+#
+##  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
+#eureka:
+#  instance:
+#    healthCheckUrlPath: /health
+#    # docker 部署开启
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1
+#  client:
+#    serviceUrl:
+#      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:7001}/eureka/

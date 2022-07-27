@@ -1,0 +1,11 @@
+
+{
+java:S14889"eImmediately return this expression instead of assigning it to the temporary variable "infoFromToken".(í²´Â
+k	java:S116"VRename this field "site_expire" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Þº…
+[	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(Ïâ©‰
+€
+java:S14883"eImmediately return this expression instead of assigning it to the temporary variable "infoFromToken".(ÈŸŽ«üÿÿÿÿ
+{
+java:S14886"eImmediately return this expression instead of assigning it to the temporary variable "infoFromToken".(´ÔÓõ
+r	java:S116"XRename this field "center_expire" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¡½Ûþÿÿÿÿ
+[	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(¤˜ÊÊ

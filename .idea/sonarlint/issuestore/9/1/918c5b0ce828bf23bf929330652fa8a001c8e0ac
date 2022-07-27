@@ -1,0 +1,15 @@
+
+^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ƒ®´Ò
+d
+java:S4488A"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(•“ÛÏ
+^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ƒ®´Ò
+c
+java:S4488I"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ìåßÑøÿÿÿÿ
+t
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ™×ªıÿÿÿÿ
+e
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Õ¡¤ùÿÿÿÿ
+^
+java:S4488Y"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ñÀÈó
+]	java:S125L"<This block of commented-out lines of code should be removed.(ÖÁŒ´ıÿÿÿÿ8¢ğÒò¡0
+]	java:S125P"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8¢ğÒò¡0

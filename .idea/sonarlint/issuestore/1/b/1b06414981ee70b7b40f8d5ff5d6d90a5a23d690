@@ -1,0 +1,21 @@
+
+=
+java:S33297"'Use a dynamically-generated, random IV.(óÉàÀ
+B
+java:S3329H"'Use a dynamically-generated, random IV.(è—øÒúÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ó¨Ôÿÿÿÿÿ
+N
+java:S4719L"9Replace charset name argument with StandardCharsets.UTF_8(®«™
+
+>
+java:S5542G"#Use secure mode and padding scheme.(ø¾¢çýÿÿÿÿ
+T
+java:S47199"9Replace charset name argument with StandardCharsets.UTF_8(†ýåŠùÿÿÿÿ
+9
+java:S55424"#Use secure mode and padding scheme.(‹ð‘‘
+{
+java:S1488L"fImmediately return this expression instead of assigning it to the temporary variable "originalString".(®«™
+
+W
+java:S4719E"<Replace charset name argument with StandardCharsets.US_ASCII(‚ýá®þÿÿÿÿ

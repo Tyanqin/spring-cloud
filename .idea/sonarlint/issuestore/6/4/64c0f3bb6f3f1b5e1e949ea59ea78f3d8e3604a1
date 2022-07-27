@@ -1,0 +1,11 @@
+
+Z
+java:S1197"8Move the array designator from the variable to the type.(ùï¾ÿÿÿÿÿ8Õ®óÎ£0
+^
+java:S1075	"ARefactor your code to get this URI from a customizable parameter.(çêÄÌ8×öñÎ£0
+v	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›èí›8×öñÎ£0
+^
+java:S1075
+"ARefactor your code to get this URI from a customizable parameter.(›èí›8×öñÎ£0
+v	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çêÄÌ8×öñÎ£0

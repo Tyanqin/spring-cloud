@@ -1,0 +1,925 @@
+2022-07-22 10:50:28.557 [main] INFO  com.tx.data.SpringCloudDataApplication - The following profiles are active: dev
+2022-07-22 10:50:30.834 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 10:50:30.835 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 10:50:30.837 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 10:50:32.124 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 10:50:32.776 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 10:50:32.778 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 10:50:33.104 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1e58a76a-7b83-36af-9f94-2307e2a1853d
+2022-07-22 10:50:33.727 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 10:50:34.842 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 10:50:34.962 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 10:50:34.963 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6325 ms
+2022-07-22 10:50:35.011 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 10:50:35.343 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 10:50:35.344 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 10:50:35.371 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3127cb44
+2022-07-22 10:50:45.466 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 10:50:50.073 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-22 10:50:50.310 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 10:50:50.382 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 10:50:50.391 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 10:50:50.661 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 10:50:51.007 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 10:50:51.008 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 10:50:51.010 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 10:50:51.010 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 10:50:59.359 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 10:51:04.421 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 10:51:04.601 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 10:51:04.858 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 10:51:04.967 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 10:51:07.631 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 10:51:07.631 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 10:51:07.852 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 10:51:07.852 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 10:51:08.313 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 10:51:10.083 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 10:51:10.083 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 10:51:10.083 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 10:51:10.083 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 10:51:10.084 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 10:51:10.084 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 10:51:10.084 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 10:51:10.676 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 10:51:10.679 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 10:51:10.683 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 10:51:10.691 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658458270689 with initial instances count: 0
+2022-07-22 10:51:10.695 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 10:51:10.696 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658458270696, current=UP, previous=STARTING]
+2022-07-22 10:51:10.703 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 10:51:10.706 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 10:51:10.744 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 10:51:10.969 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 10:51:11.007 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 10:51:11.717 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 10:51:11.869 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 10:51:11.900 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 10:51:12.236 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 10:51:12.239 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 10:51:18.049 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 10:51:18.053 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 61.964 seconds (JVM running for 67.009)
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2022-07-22 10:51:40.686 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 10:51:40.748 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 10:56:10.481 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:01:10.508 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:06:10.517 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:11:10.532 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:16:10.539 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:21:10.550 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:26:10.556 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:31:10.562 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:36:10.562 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:41:10.564 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:46:10.575 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:51:10.584 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 11:56:10.598 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 12:01:10.601 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 12:06:10.614 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 12:11:10.618 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 12:12:34.164 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:12:40.618 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:12:40.618 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:12:40.649 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:12:42.211 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:12:42.211 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:12:42.211 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:12:43.086 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 12:12:43.242 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 12:12:43.242 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 12:12:43.429 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c389409a-ddda-33da-9cc9-c3356e228cbe
+2022-07-22 12:12:43.742 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 12:12:44.257 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 12:12:44.304 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 12:12:44.304 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3608 ms
+2022-07-22 12:12:44.335 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 12:12:44.492 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 12:12:44.492 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 12:12:44.523 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7c0f28f8
+2022-07-22 12:12:44.882 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.RuntimeException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dbHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthContributorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributor]: Factory method 'dbHealthContributor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-07-22 12:12:44.898 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:12:44.913 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-07-22 12:23:17.185 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:23:22.171 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:23:22.171 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:23:22.202 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:23:23.623 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:23:23.623 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:23:23.623 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:23:23.780 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/tx/data/config/DruidConfig.class]] bound.
+2022-07-22 12:23:23.795 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:23:23.811 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class], could not be registered. A bean with that name has already been defined in class path resource [com/tx/data/config/DruidConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-07-22 12:34:32.385 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:34:35.556 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:34:35.556 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:34:35.587 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:34:37.196 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:34:37.196 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:34:37.196 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:34:38.540 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 12:34:38.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 12:34:38.837 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 12:34:39.071 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=20aad339-ab6e-3e02-b105-ba828c50ff9a
+2022-07-22 12:34:39.368 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 12:34:39.930 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 12:34:39.993 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 12:34:39.993 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4374 ms
+2022-07-22 12:34:40.180 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 12:34:40.180 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 12:34:40.196 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2753316c
+2022-07-22 12:34:40.492 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.RuntimeException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dbHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthContributorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributor]: Factory method 'dbHealthContributor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-07-22 12:34:40.524 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:34:40.539 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-07-22 12:36:11.902 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:36:16.940 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:36:16.955 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:36:16.971 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:36:19.002 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:36:19.002 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:36:19.002 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:36:19.236 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/tx/data/config/DruidConfig.class]] bound.
+2022-07-22 12:36:19.252 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:36:19.283 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class], could not be registered. A bean with that name has already been defined in class path resource [com/tx/data/config/DruidConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-07-22 12:36:59.119 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:37:04.071 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:37:04.071 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:37:04.102 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:37:05.480 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:37:05.480 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:37:05.480 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:37:05.636 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/tx/data/config/DruidConfig.class]] bound.
+2022-07-22 12:37:05.652 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:37:05.668 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class], could not be registered. A bean with that name has already been defined in class path resource [com/tx/data/config/DruidConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-07-22 12:38:58.762 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:39:03.996 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:39:03.996 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:39:04.027 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:39:05.924 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:39:05.925 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:39:05.925 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:39:07.188 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 12:39:07.441 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 12:39:07.442 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 12:39:07.653 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=20aad339-ab6e-3e02-b105-ba828c50ff9a
+2022-07-22 12:39:08.042 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 12:39:08.689 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 12:39:08.736 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 12:39:08.736 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4662 ms
+2022-07-22 12:39:08.932 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 12:39:08.932 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 12:39:08.953 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@76e90da5
+2022-07-22 12:39:09.257 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.RuntimeException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dbHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthContributorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributor]: Factory method 'dbHealthContributor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-07-22 12:39:09.293 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:39:09.301 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-07-22 12:40:38.497 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 12:40:43.277 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 12:40:43.292 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 12:40:43.324 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 12:40:44.870 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 12:40:44.870 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 12:40:44.870 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 12:40:45.558 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 12:40:45.745 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 12:40:45.745 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 12:40:45.917 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=20aad339-ab6e-3e02-b105-ba828c50ff9a
+2022-07-22 12:40:46.151 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 12:40:46.714 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 12:40:46.776 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 12:40:46.776 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3421 ms
+2022-07-22 12:40:46.979 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 12:40:46.979 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 12:40:46.995 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5820070c
+2022-07-22 12:40:47.276 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is java.lang.RuntimeException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dbHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/jdbc/DataSourceHealthContributorAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributor]: Factory method 'dbHealthContributor' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2022-07-22 12:40:47.307 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 12:40:47.323 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2022-07-22 15:37:21.402 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 15:37:26.307 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 15:37:26.307 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 15:37:26.338 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 15:37:27.760 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 15:37:27.760 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 15:37:27.760 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 15:37:28.431 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 15:37:28.588 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 15:37:28.588 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 15:37:28.806 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 15:37:29.056 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 15:37:29.541 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 15:37:29.587 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 15:37:29.587 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3218 ms
+2022-07-22 15:37:29.759 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 15:37:29.759 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 15:37:29.775 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@136ccbfe
+2022-07-22 15:37:33.833 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:37:34.239 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 15:37:35.270 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 15:37:35.364 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druidServlet' defined in class path resource [com/tx/data/config/DruidConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.druidConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.driver-class-name' in value "${config.driver-class-name}"
+2022-07-22 15:37:35.395 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 15:37:35.410 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druidServlet' defined in class path resource [com/tx/data/config/DruidConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.druidConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.driver-class-name' in value "${config.driver-class-name}"
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.tx.data.SpringCloudDataApplication.main(SpringCloudDataApplication.java:20)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.druidConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.driver-class-name' in value "${config.driver-class-name}"
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.druidConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.driver-class-name' in value "${config.driver-class-name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.tx.data.config.DruidConfig$$EnhancerBySpringCGLIB$$381787cb.druidServlet(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.driver-class-name' in value "${config.driver-class-name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 36 common frames omitted
+2022-07-22 15:38:48.064 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 15:38:53.865 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 15:38:53.865 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 15:38:53.897 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 15:38:55.315 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 15:38:55.315 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 15:38:55.315 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 15:38:55.991 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 15:38:56.147 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 15:38:56.147 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 15:38:56.319 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 15:38:56.584 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 15:38:57.069 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 15:38:57.131 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 15:38:57.131 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3188 ms
+2022-07-22 15:38:57.272 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 15:38:57.272 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 15:38:57.287 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cc30dee
+2022-07-22 15:39:01.599 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:39:01.880 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 15:39:02.958 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 15:39:03.067 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 15:39:03.114 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 15:39:03.145 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 15:39:03.145 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 15:39:03.348 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 15:39:03.505 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 15:39:03.505 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 15:39:03.505 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 15:39:03.520 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 15:39:07.678 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:39:11.474 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:39:11.506 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 15:39:11.646 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 15:39:11.724 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 15:39:13.490 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 15:39:13.490 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 15:39:13.708 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 15:39:13.708 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 15:39:14.036 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 15:39:15.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 15:39:15.645 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 15:39:15.645 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 15:39:15.661 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 15:39:15.661 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658475555661 with initial instances count: 4
+2022-07-22 15:39:15.661 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 15:39:15.661 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658475555661, current=UP, previous=STARTING]
+2022-07-22 15:39:15.661 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 15:39:15.661 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 15:39:15.708 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 15:39:15.739 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 15:39:15.864 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 15:39:16.270 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 15:39:16.286 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 15:39:16.301 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 15:39:16.411 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 15:39:16.411 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 15:39:20.157 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:39:20.157 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 41.815 seconds (JVM running for 46.598)
+2022-07-22 15:44:15.479 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 15:49:15.494 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 15:54:15.501 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 15:59:15.509 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 15:59:36.407 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 15:59:41.588 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 15:59:41.589 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 15:59:41.613 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 15:59:42.837 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 15:59:42.838 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 15:59:42.838 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 15:59:43.378 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 15:59:43.509 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 15:59:43.509 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 15:59:43.644 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 15:59:43.839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 15:59:44.284 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 15:59:44.325 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 15:59:44.325 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2682 ms
+2022-07-22 15:59:44.440 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 15:59:44.440 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 15:59:44.452 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@50b0afd7
+2022-07-22 15:59:48.409 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:59:48.692 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 15:59:49.804 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 15:59:49.974 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 15:59:50.015 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 15:59:50.053 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 15:59:50.054 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 15:59:50.365 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 15:59:50.528 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 15:59:50.529 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 15:59:50.530 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 15:59:50.530 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 15:59:54.599 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:59:58.083 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 15:59:58.129 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 15:59:58.223 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 15:59:58.285 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 15:59:59.785 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 15:59:59.785 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 15:59:59.957 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 15:59:59.957 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 16:00:00.223 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 16:00:01.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 16:00:01.707 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 16:00:01.707 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 16:00:01.707 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 16:00:01.707 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658476801707 with initial instances count: 4
+2022-07-22 16:00:01.722 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 16:00:01.722 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658476801722, current=UP, previous=STARTING]
+2022-07-22 16:00:01.722 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 16:00:01.722 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 16:00:01.753 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 16:00:01.785 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 16:00:01.910 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 16:00:02.363 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 16:00:02.363 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 16:00:02.394 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 16:00:02.472 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 16:00:02.472 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 16:00:05.956 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 16:00:05.956 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 39.061 seconds (JVM running for 43.897)
+2022-07-22 16:05:01.535 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:10:01.550 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:15:01.561 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:20:01.568 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:25:01.577 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:30:01.587 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:35:01.591 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:40:01.604 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:45:01.613 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:50:01.625 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:54:35.365 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 16:54:39.208 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 16:54:39.208 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 16:54:39.223 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 16:54:40.239 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 16:54:40.239 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 16:54:40.239 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 16:54:40.770 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 16:54:40.879 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 16:54:40.879 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 16:54:40.988 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 16:54:41.176 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 16:54:41.598 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 16:54:41.629 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 16:54:41.629 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2375 ms
+2022-07-22 16:54:41.785 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 16:54:41.785 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 16:54:41.801 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@10e5bf9c
+2022-07-22 16:54:45.784 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 16:54:46.159 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 16:54:47.596 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 16:54:47.737 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 16:54:47.768 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 16:54:47.799 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 16:54:47.799 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 16:54:47.987 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 16:54:48.143 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 16:54:48.143 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 16:54:48.143 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 16:54:48.143 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 16:54:52.208 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 16:54:55.980 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 16:54:56.014 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 16:54:56.248 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 16:54:56.389 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 16:54:59.270 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 16:54:59.270 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 16:54:59.786 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 16:54:59.786 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 16:55:00.317 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 16:55:01.660 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 16:55:01.895 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 16:55:01.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 16:55:01.895 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 16:55:01.910 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658480101910 with initial instances count: 4
+2022-07-22 16:55:01.910 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 16:55:01.910 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658480101910, current=UP, previous=STARTING]
+2022-07-22 16:55:01.910 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 16:55:01.910 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 16:55:01.941 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 16:55:01.973 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 16:55:02.082 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 16:55:02.504 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 16:55:02.519 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 16:55:02.551 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 16:55:02.660 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 16:55:02.660 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 16:55:06.173 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 16:55:06.177 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 39.284 seconds (JVM running for 43.783)
+2022-07-22 16:55:22.246 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 16:55:22.246 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-22 16:55:22.262 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-07-22 17:00:01.675 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:01:18.436 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 17:01:22.607 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 17:01:22.607 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 17:01:22.638 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:01:23.544 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 17:01:23.544 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 17:01:23.544 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 17:01:24.044 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 17:01:24.138 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 17:01:24.138 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 17:01:24.247 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 17:01:24.419 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 17:01:24.794 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 17:01:24.825 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:01:24.825 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2172 ms
+2022-07-22 17:01:24.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:01:24.919 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:01:24.934 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5b39a3e6
+2022-07-22 17:01:28.543 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:01:28.793 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 17:01:29.621 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 17:01:29.699 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 17:01:29.730 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 17:01:29.746 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:01:29.746 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:01:29.886 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:01:30.199 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 17:01:30.214 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 17:01:30.214 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 17:01:30.214 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 17:01:34.077 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:01:37.201 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:01:37.245 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 17:01:37.385 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 17:01:37.435 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 17:01:38.674 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 17:01:38.674 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 17:01:38.799 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 17:01:38.799 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 17:01:39.002 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 17:01:40.002 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 17:01:40.127 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 17:01:40.142 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 17:01:40.142 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 17:01:40.142 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658480500142 with initial instances count: 4
+2022-07-22 17:01:40.142 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 17:01:40.142 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658480500142, current=UP, previous=STARTING]
+2022-07-22 17:01:40.142 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 17:01:40.142 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 17:01:40.173 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 17:01:40.189 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 17:01:40.267 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 17:01:40.501 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 17:01:40.517 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 17:01:40.533 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 17:01:40.595 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 17:01:40.595 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 17:01:44.017 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:01:44.017 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 34.042 seconds (JVM running for 38.272)
+2022-07-22 17:06:40.023 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:11:23.105 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 17:11:27.010 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 17:11:27.010 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 17:11:27.026 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:11:27.916 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 17:11:27.916 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 17:11:27.916 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 17:11:28.369 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 17:11:28.479 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 17:11:28.479 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 17:11:28.619 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=04dad452-9bc3-3d07-a057-56deabfafbb2
+2022-07-22 17:11:28.775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 17:11:29.150 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 17:11:29.182 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:11:29.182 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2140 ms
+2022-07-22 17:11:29.275 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:11:29.275 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:11:29.291 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@62765aec
+2022-07-22 17:11:32.481 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:11:32.703 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 17:11:33.656 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 17:11:33.718 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 17:11:33.749 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 17:11:33.765 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:11:33.765 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:11:33.874 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:11:34.015 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 17:11:34.015 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 17:11:34.015 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 17:11:34.015 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 17:11:37.171 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:11:40.576 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:11:40.607 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 17:11:40.701 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 17:11:40.732 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 17:11:41.966 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 17:11:41.966 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 17:11:42.107 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 17:11:42.107 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 17:11:42.310 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 17:11:43.356 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 17:11:43.481 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 17:11:43.497 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 17:11:43.497 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 17:11:43.497 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658481103497 with initial instances count: 4
+2022-07-22 17:11:43.497 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 17:11:43.497 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658481103497, current=UP, previous=STARTING]
+2022-07-22 17:11:43.497 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 17:11:43.497 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 17:11:43.528 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 17:11:43.559 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 17:11:43.638 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 17:11:43.903 [main] INFO  io.undertow - starting server: Undertow - 2.0.28.Final
+2022-07-22 17:11:43.919 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2022-07-22 17:11:43.919 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2022-07-22 17:11:43.997 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 8001 (http) with context path ''
+2022-07-22 17:11:43.997 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2022-07-22 17:11:46.981 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:11:46.981 [main] INFO  com.tx.data.SpringCloudDataApplication - Started SpringCloudDataApplication in 33.007 seconds (JVM running for 37.157)
+2022-07-22 17:16:43.366 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:21:43.373 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:22:37.109 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-22 17:22:37.110 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-22 17:22:37.120 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2022-07-22 17:26:51.511 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 17:26:56.576 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 17:26:56.576 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 17:26:56.607 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:26:58.044 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 17:26:58.044 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 17:26:58.044 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 17:26:58.685 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 17:26:58.857 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 17:26:58.857 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 17:26:58.997 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=fce08b57-698f-30d4-961d-596f5f5a7cb8
+2022-07-22 17:26:59.216 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 17:26:59.700 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 17:26:59.763 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:26:59.763 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3125 ms
+2022-07-22 17:27:00.028 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:27:00.028 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:27:00.059 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@22d9ca63
+2022-07-22 17:27:04.452 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:27:04.717 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 17:27:04.780 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+2022-07-22 17:27:04.795 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 17:27:04.811 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.tx.data.SpringCloudDataApplication.main(SpringCloudDataApplication.java:20)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2022-07-22 17:27:58.815 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3344
+2022-07-22 17:28:03.985 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config, profiles=[dev], label=master, version=3f096bffeab72e73faa211052d9810c65a4ff243, state=null
+2022-07-22 17:28:03.985 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitee.com/tyanqin/springcloud-config.git/config-dev.yml'}]
+2022-07-22 17:28:04.017 [main] INFO  com.tx.data.SpringCloudDataApplication - No active profile set, falling back to default profiles: default
+2022-07-22 17:28:05.110 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\springcloud\springcloud-data\target\classes\com\tx\data\dao\StudentInfoMapper.class]
+2022-07-22 17:28:05.110 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface
+2022-07-22 17:28:05.110 [main] DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentInfoMapper'.
+2022-07-22 17:28:05.641 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-22 17:28:05.766 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'studentInfoMapper' and 'com.tx.data.dao.StudentInfoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-22 17:28:05.766 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.tx.data]' package. Please check your configuration.
+2022-07-22 17:28:05.954 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c2ad0af5-91ba-384b-bd5a-f8eb89f3bd9d
+2022-07-22 17:28:06.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-22 17:28:06.547 [main] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-07-22 17:28:06.578 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2022-07-22 17:28:06.578 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2546 ms
+2022-07-22 17:28:06.703 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:28:06.703 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:28:06.719 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4f169009
+2022-07-22 17:28:10.408 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:28:10.642 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-07-22 17:28:11.454 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-22 17:28:11.532 [main] INFO  com.tx.data.config.DruidConfig - init Druid Servlet Configuration 
+2022-07-22 17:28:11.579 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-22 17:28:11.595 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-07-22 17:28:11.595 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-22 17:28:11.751 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:28:11.892 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-22 17:28:11.892 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-22 17:28:11.892 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-22 17:28:11.892 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2022-07-22 17:28:15.627 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:28:19.568 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-07-22 17:28:19.599 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-22 17:28:19.709 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-07-22 17:28:19.756 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-07-22 17:28:21.630 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2022-07-22 17:28:21.630 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2022-07-22 17:28:21.802 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2022-07-22 17:28:21.802 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2022-07-22 17:28:22.021 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-07-22 17:28:23.445 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-07-22 17:28:23.616 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-07-22 17:28:23.616 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-07-22 17:28:23.616 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-22 17:28:23.616 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1658482103616 with initial instances count: 4
+2022-07-22 17:28:23.616 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SPRING-CLOUD-DATA-V1 with eureka with status UP
+2022-07-22 17:28:23.616 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1658482103616, current=UP, previous=STARTING]
+2022-07-22 17:28:23.632 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-22 17:28:23.632 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001: registering service...
+2022-07-22 17:28:23.663 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-22 17:28:23.679 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - registration status: 204
+2022-07-22 17:28:23.773 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-22 17:28:24.038 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.configController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+2022-07-22 17:28:24.038 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-22 17:28:24.054 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-07-22 17:28:27.069 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-07-22 17:28:27.100 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SPRING-CLOUD-DATA-V1/localhost:spring-cloud-data-v1:8001 - deregister  status: 200
+2022-07-22 17:28:27.116 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-07-22 17:28:27.147 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-22 17:28:27.178 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.configController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:359)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:356)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:127)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:118)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:112)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:66)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.tx.data.SpringCloudDataApplication.main(SpringCloudDataApplication.java:20)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'config.username' in value "${config.username}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1228)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 28 common frames omitted

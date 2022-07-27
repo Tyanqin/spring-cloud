@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-getway" />
+        <module name="springcloud-config" />
+        <module name="springcloudjwt" />
+        <module name="springcloudcommon" />
+        <module name="springcloudeureka7001" />
+        <module name="springclouddata" />
+        <module name="springcloud-common" />
+        <module name="springcloud-common-client" />
+        <module name="springcloud-data-client" />
+        <module name="springcloud-class" />
+        <module name="springcloud-jwt" />
+        <module name="springcloud-data-api" />
+        <module name="springcloud-eureka-7001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="springcloud-rabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

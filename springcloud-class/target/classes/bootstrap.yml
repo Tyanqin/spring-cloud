@@ -1,0 +1,79 @@
+spring:
+  application:
+    name: spring-cloud-class-v1
+#  cloud:
+#
+#            spring:
+#              rabbitmq:
+#                host: 112.164.16.82  # RabbitMQ在本机的用localhost，在服务器的用服务器的ip地址
+#                port: 5673
+#                username: guest
+#                password: guest
+
+
+  cloud:
+    config:
+      label: master #分支名称
+      name: config  #配置文件名称，config-dev.yml 中的 config
+      profile: dev  #环境名  config-dev.yml 中的 dev
+      #这里不要忘记添加 http:// 否则无法读取
+      uri: http://localhost:3344 #Spring Cloud Config 服务端（配置中心）地址
+    stream:
+      binders:                # 在此处配置要绑定的rabbitmq的服务信息
+        defaultRabbit: # 表示定义的名称，用于binding整合
+          type: rabbit # 消息组件类型
+          environment: # 设置rabbitmq的相关环境配置
+            spring:
+                rabbitmq:
+                  host: 127.0.0.1
+                  port: 5672
+                  username: guest
+                  password: guest
+      bindings:          # 服务的整合处理
+         input:      # 这个名字是一个通道的名称
+            destination: studentExchange # 表示要使用的Exchange名称
+            content-type: application/json # 设置消息类型，本次为json，本文要设置为“text/plain”
+            binder: defaultRabbit # 设置要绑定的消息服务的具体设置（爆红不影响使用，位置没错）
+
+server:
+  port: 8002
+  http2:
+    enabled: true
+  undertow:
+    io-threads: 16
+    worker-threads: 256
+    buffer-size: 1024
+    direct-buffers: true
+  compression:
+    enabled: true
+
+
+
+
+
+eureka:
+  instance:
+    healthCheckUrlPath: /health
+    # docker 部署开启
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30S)
+    lease-expiration-duration-in-seconds: 5 # 如果超过5S间隔就注销节点 默认是90s
+    instance-id: send-8002.com # 在信息列表时显示主机名称
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:7001}/eureka/
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号
+
+
+
+
+

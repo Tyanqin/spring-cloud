@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-class" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-common-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-data-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-getway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-rabbitmq" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

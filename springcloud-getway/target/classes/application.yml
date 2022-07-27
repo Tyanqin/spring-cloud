@@ -1,0 +1,30 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-gateway-v1
+  cloud:
+    gateway:
+       enabled: true
+       discovery:
+         locator:
+           enabled: true   #开启动态路由
+       routes:
+        - id: studentInfo_route # 路由的id,没有规定规则但要求唯一,建议配合服务名
+#          uri: http://localhost:8001
+          uri: lb://spring-cloud-data-v1
+          predicates:
+            - Path=/studentInfo/** # 断言，路径相匹配的进行路由
+           # - Cookie=username,zzyy   #C:\Users\markm>curl http://127.0.0.1:9527/studentInfo/all --cookie "username=zzyy"
+
+#https://github.com/Tyanqin/springcloud-config.git
+
+eureka:
+  instance:
+    hostname: springcloud-gateway-v1
+  client: #服务提供者provider注册进eureka服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone:  http://${EUREKA_HOST:localhost}:${EUREKA_PORT:7001}/eureka/

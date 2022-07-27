@@ -1,0 +1,37 @@
+
+G
+java:S1444"1Make this "public static threadLocal" field final(­ƒ
+E
+java:S3740"/Provide the parametrized type for this generic.(­ƒ
+J
+java:S3740"/Provide the parametrized type for this generic.(«ñ•øÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(«ñ•øÿÿÿÿ
+m
+java:S1104"WMake threadLocal a static final constant or non-public and provide accessors if needed.(­ƒ
+D
+java:S1121&".Extract the assignment out of this expression.(Ùã³Ø
+D
+java:S1121+".Extract the assignment out of this expression.(„˜
+I
+java:S11211".Extract the assignment out of this expression.(¬µîˆúÿÿÿÿ
+I
+java:S1121=".Extract the assignment out of this expression.(Ì¹ıÿÿÿÿ
+C
+java:S1121C".Extract the assignment out of this expression.(Óù­Y
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(´•
+A
+java:S1905"&Remove this unnecessary cast to "Map".(Õñ“½øÿÿÿÿ
+A
+java:S1905"&Remove this unnecessary cast to "Map".(Õñ“½øÿÿÿÿ
+U
+java:S1854&"?Remove this useless assignment to local variable "localObject".(Ùã³Ø
+U
+java:S1854+"?Remove this useless assignment to local variable "localObject".(„˜
+Z
+java:S18541"?Remove this useless assignment to local variable "localObject".(¬µîˆúÿÿÿÿ
+Z
+java:S1854="?Remove this useless assignment to local variable "localObject".(Ì¹ıÿÿÿÿ
+T
+java:S1854C"?Remove this useless assignment to local variable "localObject".(Óù­Y

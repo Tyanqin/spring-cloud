@@ -1,0 +1,8 @@
+
+V	java:S125N"<This block of commented-out lines of code should be removed.(ÌÀÍ©ÿÿÿÿÿ
+n
+java:S1450"XRemove the "totalPage" field and declare it as a local variable in the relevant methods.(âñÓÙ
+C
+java:S1068"-Remove this unused "totalPage" private field.(âñÓÙ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(¬Ï»°
+Q	java:S125t"<This block of commented-out lines of code should be removed.(Ÿ¿½å

@@ -1,0 +1,7 @@
+
+@
+java:S1068*"*Remove this unused "logger" private field.(û¨ î
+P	java:S125,"<This block of commented-out lines of code should be removed.(é¡Ü~
+[	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ìì¾£
+`	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(šÙŽÇþÿÿÿÿ
+g	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(·Ú¾µÿÿÿÿÿ8Ñ–…Ï£0

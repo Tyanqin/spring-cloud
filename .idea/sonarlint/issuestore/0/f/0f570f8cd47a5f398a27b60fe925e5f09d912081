@@ -1,0 +1,16 @@
+
+b
+java:S1192"GDefine a constant instead of duplicating this literal "siteId" 4 times.(«Èÿûÿÿÿÿ
+[	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(¹ìá—
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÈÔØ®
+b
+java:S1192"GDefine a constant instead of duplicating this literal "userId" 3 times.(ˆÀ®ìıÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é•´ˆ
+`
+java:S1192"KDefine a constant instead of duplicating this literal "centerName" 5 times.(¢¿îu
+b
+java:S1192"GDefine a constant instead of duplicating this literal "expire" 5 times.(Ú°ËÜüÿÿÿÿ
+`	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(İË¡§úÿÿÿÿ
+_
+java:S1192"IDefine a constant instead of duplicating this literal "userName" 3 times.(Å–îŒ

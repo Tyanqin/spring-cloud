@@ -1,0 +1,74 @@
+spring:
+  application:
+    name: spring-cloud-data-client-v1
+  profiles:
+    active:  dev
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          enabled: true   #开启动态路由
+      routes:
+        - id: studentInfo_route # 路由的id,没有规定规则但要求唯一,建议配合服务名
+          #          uri: http://localhost:8001
+          uri: lb://spring-cloud-data-v1
+          predicates:
+            - Path=/studentInfo/** # 断言，路径相匹配的进行路由
+            # - Cookie=username,zzyy   #C:\Users\markm>curl http://127.0.0.1:9527/studentInfo/all --cookie "username=zzyy"
+    config:
+      label: master #分支名称
+      name: config  #配置文件名称，config-dev.yml 中的 config
+      profile: dev  #环境名  config-dev.yml 中的 dev
+      #这里不要忘记添加 http:// 否则无法读取
+      uri: http://localhost:3344 #Spring Cloud Config 服务端（配置中心）地址
+  rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+      username: guest
+      password: guest
+
+
+server:
+  port: 80
+
+eureka:
+  instance:
+    healthCheckUrlPath: /health
+    # docker 部署开启
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:7001}/eureka/
+
+
+feign:
+  hystrix:
+    enabled: true
+  circuitbreaker:
+    enabled: true
+#开启hystrix熔断机制
+#feign:
+#  hystrix:
+#    enabled: true
+#设置openfeign超时时间，由于OpenFeign封装了Ribbon依赖，实质是设置Ribbon超时时间。
+ribbon:
+  ReadTimeout: 10000  #建立连接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 10000
+
+
+
+# 配置swagger
+swagger:
+  enabled: true
+  base-package: com.tx
+  title: spring-cloud-data-client-v1
+  version: 1.0.0.SNAPSHOT
+  description: 数据服务
+  contact:
+    name: admin
+
+
+
